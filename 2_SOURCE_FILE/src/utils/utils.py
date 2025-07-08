@@ -1,3 +1,7 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
 # Dev simple functions
 # Tính tỷ lệ giá trị khuyết thiếu
 def calculate_missing_percentage(df=pd.DataFrame()):
