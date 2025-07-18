@@ -1,0 +1,39 @@
+column,dtype,nunique,unique_values
+NAME_CONTRACT_TYPE,object,2,['Cash loans' 'Revolving loans']
+CODE_GENDER,object,3,['M' 'F' 'XNA']
+FLAG_OWN_CAR,object,2,['N' 'Y']
+FLAG_OWN_REALTY,object,2,['Y' 'N']
+NAME_TYPE_SUITE,object,7,"['Unaccompanied' 'Family' 'Spouse, partner' 'Children' 'Other_A' nan
+ 'Other_B' 'Group of people']"
+NAME_INCOME_TYPE,object,8,"['Working' 'State servant' 'Commercial associate' 'Pensioner' 'Unemployed'
+ 'Student' 'Businessman' 'Maternity leave']"
+NAME_EDUCATION_TYPE,object,5,"['Secondary / secondary special' 'Higher education' 'Incomplete higher'
+ 'Lower secondary' 'Academic degree']"
+NAME_FAMILY_STATUS,object,6,"['Single / not married' 'Married' 'Civil marriage' 'Widow' 'Separated'
+ 'Unknown']"
+NAME_HOUSING_TYPE,object,6,"['House / apartment' 'Rented apartment' 'With parents'
+ 'Municipal apartment' 'Office apartment' 'Co-op apartment']"
+OCCUPATION_TYPE,object,18,"['Laborers' 'Core staff' 'Accountants' 'Managers' nan 'Drivers'
+ 'Sales staff' 'Cleaning staff' 'Cooking staff' 'Private service staff'
+ 'Medicine staff' 'Security staff' 'High skill tech staff'
+ 'Waiters/barmen staff' 'Low-skill Laborers' 'Realty agents' 'Secretaries'
+ 'IT staff' 'HR staff']"
+WEEKDAY_APPR_PROCESS_START,object,7,['WEDNESDAY' 'MONDAY' 'THURSDAY' 'SUNDAY' 'SATURDAY' 'FRIDAY' 'TUESDAY']
+ORGANIZATION_TYPE,object,58,"['Business Entity Type 3' 'School' 'Government' 'Religion' 'Other' 'XNA'
+ 'Electricity' 'Medicine' 'Business Entity Type 2' 'Self-employed'
+ 'Transport: type 2' 'Construction' 'Housing' 'Kindergarten'
+ 'Trade: type 7' 'Industry: type 11' 'Military' 'Services'
+ 'Security Ministries' 'Transport: type 4' 'Industry: type 1' 'Emergency'
+ 'Security' 'Trade: type 2' 'University' 'Transport: type 3' 'Police'
+ 'Business Entity Type 1' 'Postal' 'Industry: type 4' 'Agriculture'
+ 'Restaurant' 'Culture' 'Hotel' 'Industry: type 7' 'Trade: type 3'
+ 'Industry: type 3' 'Bank' 'Industry: type 9' 'Insurance' 'Trade: type 6'
+ 'Industry: type 2' 'Transport: type 1' 'Industry: type 12' 'Mobile'
+ 'Trade: type 1' 'Industry: type 5' 'Industry: type 10' 'Legal Services'
+ 'Advertising' 'Trade: type 5' 'Cleaning' 'Industry: type 13'
+ 'Trade: type 4' 'Telecom' 'Industry: type 8' 'Realtor' 'Industry: type 6']"
+FONDKAPREMONT_MODE,object,4,"['reg oper account' nan 'org spec account' 'reg oper spec account'
+ 'not specified']"
+HOUSETYPE_MODE,object,3,['block of flats' nan 'terraced house' 'specific housing']
+WALLSMATERIAL_MODE,object,7,"['Stone, brick' 'Block' nan 'Panel' 'Mixed' 'Wooden' 'Others' 'Monolithic']"
+EMERGENCYSTATE_MODE,object,2,['No' nan 'Yes']

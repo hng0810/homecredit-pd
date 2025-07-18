@@ -29,10 +29,14 @@ def data_pull(file_in, file_out):
 
     df = pd.read_sql(query, con=engine)
     df.to_csv(file_out, index=False, encoding='utf-8-sig')
-    print('Data pulled successfully')
+    print(f'{file_in} pulled successfully')
     engine.dispose()
 
 if __name__ == '__main__':
-    file_in = r'../sql/FEATURE_LOAD.sql'
-    file_out = r'../data/raw/feature_load.csv'
-    data_pull(file_in=file_in, file_out=file_out)
+    raw_in = r'../sql/RAW_LOAD.sql'
+    raw_out = r'../../data/backup/raw_set.csv'
+    data_pull(file_in=raw_in, file_out=raw_out)
+
+    oob_in = r'../sql/OOB_LOAD.sql'
+    oob_out = r'../../data/backup/oob_set.csv'
+    data_pull(file_in=oob_in, file_out=oob_out)
