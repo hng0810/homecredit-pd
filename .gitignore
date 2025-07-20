@@ -2,6 +2,7 @@
 data/
 DATA/
 homecredit_pd_ws.code-workspace
+homecredit-pd.code-workspace
 
 # Dump things
 Thumbs.db
