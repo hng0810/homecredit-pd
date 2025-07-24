@@ -14,12 +14,11 @@
 <p align="justify">
   The final model achieved ROC AUC: 0.7779 and Gini: 0.5557 on the test set. Score on the OOT set is 0.7612 (Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target, the final results based on 80% of the OOT set).
 </p>
-<p align="justify">
-  *Notes: Several aspects in modeling process I can improve including EDA and advanced feature engineering techniques to find hidden patterns and reduce noise. Additional methods such as undersampling, oversampling, and bootstrapping were also considered to address class imbalance and further enhance model performance.*
+<p align="justify" style="text-indent: 2em;">
+  <em>Notes: Several aspects in the modeling process I can improve including EDA and advanced feature engineering techniques to find hidden patterns and reduce noise. Additional methods such as undersampling, oversampling, and bootstrapping were also considered to address class imbalance and further enhance model performance. </em>
 </p>
-<p align="justify">
+
 Find my notebook here: [NOTEBOOK](/notebook)
-</p>
 
 
 ## About the competition
