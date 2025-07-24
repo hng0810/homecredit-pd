@@ -3,8 +3,6 @@ data/
 DATA/
 homecredit_pd_ws.code-workspace
 homecredit-pd.code-workspace
-roc_curve.xlsx
-roc_curve_2.xlsx
 
 # Dump things
 Thumbs.db
